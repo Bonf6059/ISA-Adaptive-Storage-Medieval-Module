@@ -159,8 +159,6 @@
 		</graphics>
 		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
 		<requiredThingDefs>
-			<li>ISA_JuiceApple</li>
-     		<li>ISA_Cider</li>
      		<li>ISA_Wine</li>
       		<li>ISA_Wine_Berry</li>
 		</requiredThingDefs>
