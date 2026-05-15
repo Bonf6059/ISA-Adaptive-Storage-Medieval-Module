@@ -137,8 +137,6 @@
 						<li>PlantFoodRaw</li>
 					</categories> -->
 					<thingDefs>
-						<li>ISA_JuiceApple</li>
-     					<li>ISA_Cider</li>
      					<li>ISA_Wine</li>
       					<li>ISA_Wine_Berry</li>
 					</thingDefs>
