@@ -8,6 +8,9 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 
 # Old updates
 
+15/05/2026
+- Removed cider and apple juice
+
 09/02/2026
 - Removed dropdown menu from most storage solutions, it created problems with the stuffable buildings (you couldn't choose the material)
 
