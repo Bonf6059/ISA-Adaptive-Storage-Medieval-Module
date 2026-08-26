@@ -5,6 +5,8 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 # Ideas for possible next updates
 
 - Add new type of storages (look at the WIP section)
+- Remove Mead storage and add it to wine storage
+- Add stoneborn cuisine cheese to cheese storage
 
 # Old updates
 
