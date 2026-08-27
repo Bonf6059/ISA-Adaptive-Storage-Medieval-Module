@@ -59,35 +59,6 @@
 			<paintable>true</paintable>
 		</building>
 	</ThingDef>
-	
-  <!-- Wood Mead Stack -->
-
-  <ThingDef ParentName="ASMedievalStackWoody" MayRequire="ISA.hornetkeeping">
-		<defName>ASMedievalStackMeadWoody</defName>
-	  	<label>mead stack</label>
-	 	<uiIconPath>ASMedieval/Stack/StackMead/StackMead_Icon</uiIconPath>
-		<uiIconScale>2</uiIconScale>
-	  	<building>
-			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings>
-				<filter>
-					<disallowNotEverStorable>true</disallowNotEverStorable>
-					<!--<categories>
-						<li>MeatRaw</li>
-						<li>PlantFoodRaw</li>
-					</categories> -->
-					<thingDefs>
-						<li>ISA_HornetMead</li>
-   						<li>ISA_HornetHoney</li>
-				  	    <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
-					    <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
-					</thingDefs>
-				</filter>
-			</fixedStorageSettings>
-			<paintable>true</paintable>
-		</building>
-	</ThingDef>
 
   <!-- Wood Cheese Stack -->
 
@@ -112,6 +83,8 @@
     					<li>ISA_MealGoatCheese</li>
     					<li MayRequire="Van.Beasts">ISA_MealMufftonCheese</li>
      					<li MayRequire="Van.Beasts">ISA_MealGoldiloxCheese</li>
+						<li MayRequire="det.sbcuisine">SC_DwarvenCheese</li>
+						<li MayRequire="det.sbcuisine">SC_Raw_FreshCheese</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -137,8 +110,14 @@
 						<li>PlantFoodRaw</li>
 					</categories> -->
 					<thingDefs>
-     					<li>ISA_Wine</li>
-      					<li>ISA_Wine_Berry</li>
+			     		<li>ISA_Wine</li>
+			      		<li>ISA_Wine_Berry</li>
+						<li MayRequire="ISA.hornetkeeping">ISA_HornetMead</li>
+  			 			<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
+						<li MayRequire="ISA.hornetkeeping">ISA_BeeHoney</li>
+						<li MayRequire="ISA.hornetkeeping">ISA_BeeMead</li>
+			     		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
+			     		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
