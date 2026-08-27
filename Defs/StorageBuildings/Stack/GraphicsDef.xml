@@ -132,11 +132,8 @@
      		<li>ISA_Wine</li>
       		<li>ISA_Wine_Berry</li>
 			<li MayRequire="ISA.hornetkeeping">ISA_HornetMead</li>
-   			<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
-			<li MayRequire="ISA.hornetkeeping">ISA_BeeHoney</li>
 			<li MayRequire="ISA.hornetkeeping">ISA_BeeMead</li>
      		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
-     		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
