@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 	<AdaptiveStorage.GraphicsDef Name="ASMedievalFoodBarrelBase" Abstract="True">
 		<targetDef>ASMedievalFoodBarrelWoody</targetDef>
 		<showContainedItems>false</showContainedItems>
@@ -93,7 +94,9 @@
     <randomSelectionWeight>0</randomSelectionWeight>
   </AdaptiveStorage.GraphicsDef>
   
-  <!-- Wood Food Barrel -->
+  <!--============== Wood Food Barrel ==============-->
+
+  <!-- Agave wood barrel -->
 
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelAgave</defName>
@@ -125,6 +128,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Berry wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelBerries</defName>
 		<graphics>
@@ -155,6 +160,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Corn wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelCorn</defName>
 		<graphics>
@@ -185,6 +192,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Eggs wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelEgg</defName>
 		<graphics>
@@ -215,6 +224,8 @@
 		</allowedThingCategories>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Mushrooms wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelMushroom</defName>
 		<graphics>
@@ -245,6 +256,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Human meat wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelHumanMeat</defName>
 		<graphics>
@@ -275,6 +288,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Insect meat wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelInsectMeat</defName>
 		<graphics>
@@ -305,6 +320,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Insect jelly wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelJelly</defName>
 		<graphics>
@@ -335,6 +352,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Kibble wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelKibble</defName>
 		<graphics>
@@ -365,6 +384,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Meat wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelMeat</defName>
 		<graphics>
@@ -398,6 +419,8 @@
 		</allowedThingCategories>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Milk wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelMilk</defName>
 		<graphics>
@@ -428,6 +451,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Pemmican wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelPemmican</defName>
 		<graphics>
@@ -458,6 +483,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Potato wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelPotato</defName>
 		<graphics>
@@ -488,6 +515,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Rice wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
 		<defName>ASMedievalFoodBarrelRice</defName>
 		<graphics>
@@ -518,6 +547,8 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+<!-- Toxic potato wood barrel -->
+	
 	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase" MayRequire="Ludeon.RimWorld.Biotech">
 		<defName>ASMedievalFoodBarrelToxipotato</defName>
 		<graphics>
@@ -548,8 +579,106 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
-  <!-- Stone Food Barrel -->
+<!-- Cabbage wood barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
+    <defName>ASMedievalFoodBarrelWoodCabbage</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelWood_CabbageHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelWood_CabbageFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawCabbages</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
 
+<!-- Pumpkin wood barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
+    <defName>ASMedievalFoodBarrelWoodPumpkin</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelWood_PumpkinHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelWood_PumpkinFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawPumpkins</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
+
+<!-- Tomato wood barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelBase">
+    <defName>ASMedievalFoodBarrelWoodTomato</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelWood_TomatoHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelWood_TomatoFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawTomatoes</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
+
+  <!--============== Stone Food Barrel ==============-->
+
+ <!-- Agave stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneAgave</defName>
     <graphics>
@@ -580,6 +709,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Berry stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneBerries</defName>
     <graphics>
@@ -610,6 +741,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Corn stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneCorn</defName>
     <graphics>
@@ -640,6 +773,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Eggs stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneEgg</defName>
     <graphics>
@@ -670,6 +805,8 @@
     </allowedThingCategories>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Mushrooms stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneMushroom</defName>
     <graphics>
@@ -700,6 +837,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Human meat stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneHumanMeat</defName>
     <graphics>
@@ -730,6 +869,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Insect meat stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneInsectMeat</defName>
     <graphics>
@@ -760,6 +901,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Insect Jelly stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneJelly</defName>
     <graphics>
@@ -790,6 +933,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Kibble stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneKibble</defName>
     <graphics>
@@ -820,6 +965,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Meat stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneMeat</defName>
     <graphics>
@@ -853,6 +1000,8 @@
     </allowedThingCategories>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Milk stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneMilk</defName>
     <graphics>
@@ -883,6 +1032,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Pemmican stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStonePemmican</defName>
     <graphics>
@@ -913,6 +1064,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Potato stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStonePotato</defName>
     <graphics>
@@ -943,6 +1096,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Rice stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
     <defName>ASMedievalFoodBarrelStoneRice</defName>
     <graphics>
@@ -973,6 +1128,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Toxic Potato stone barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase" MayRequire="Ludeon.RimWorld.Biotech">
     <defName>ASMedievalFoodBarrelStoneToxipotato</defName>
     <graphics>
@@ -1003,8 +1160,106 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
-  <!-- Metal Food Barrel -->
+<!-- Cabbage stone barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
+    <defName>ASMedievalFoodBarrelStoneCabbage</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelStone_CabbageHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelStone_CabbageFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawCabbages</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
 
+<!-- Pumpkin stone barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
+    <defName>ASMedievalFoodBarrelStonePumpkin</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelStone_PumpkinHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelStone_PumpkinFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawPumpkins</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
+
+<!-- Tomato stone barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelStoneBase">
+    <defName>ASMedievalFoodBarrelStoneTomato</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelStone_TomatoHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelStone_TomatoFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawTomatoes</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
+
+  <!--============== Metal Food Barrel ==============-->
+
+<!-- Agave metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalAgave</defName>
     <graphics>
@@ -1035,6 +1290,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Berry metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalBerries</defName>
     <graphics>
@@ -1065,6 +1322,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Corn metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalCorn</defName>
     <graphics>
@@ -1095,6 +1354,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Eggs metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalEgg</defName>
     <graphics>
@@ -1125,6 +1386,8 @@
     </allowedThingCategories>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Mushrooms metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalMushroom</defName>
     <graphics>
@@ -1155,6 +1418,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Human meat metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalHumanMeat</defName>
     <graphics>
@@ -1185,6 +1450,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Insect meat metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalInsectMeat</defName>
     <graphics>
@@ -1215,6 +1482,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Insect jelly metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalJelly</defName>
     <graphics>
@@ -1245,6 +1514,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Kibble metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalKibble</defName>
     <graphics>
@@ -1275,6 +1546,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Meat metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalMeat</defName>
     <graphics>
@@ -1308,6 +1581,8 @@
     </allowedThingCategories>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Milk metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalMilk</defName>
     <graphics>
@@ -1338,6 +1613,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Pemmican metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalPemmican</defName>
     <graphics>
@@ -1368,6 +1645,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Potato metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalPotato</defName>
     <graphics>
@@ -1398,6 +1677,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Rice metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
     <defName>ASMedievalFoodBarrelMetalRice</defName>
     <graphics>
@@ -1428,6 +1709,8 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Toxic Potato metal barrel -->
+	
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase" MayRequire="Ludeon.RimWorld.Biotech">
     <defName>ASMedievalFoodBarrelMetalToxipotato</defName>
     <graphics>
@@ -1458,4 +1741,100 @@
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
 
+<!-- Cabbage metal barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
+    <defName>ASMedievalFoodBarrelMetalCabbage</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelMetal_CabbageHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelMetal_CabbageFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawCabbages</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
+
+<!-- Pumpkin metal barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
+    <defName>ASMedievalFoodBarrelMetalPumpkin</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelMetal_PumpkinHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelMetal_PumpkinFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawPumpkins</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
+
+<!-- Tomato metal barrel -->
+	
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalFoodBarrelMetalBase">
+    <defName>ASMedievalFoodBarrelMetalTomato</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelMetal_TomatoHalf</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/FoodBarrel/FoodBarrelMetal_TomatoFull</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(1.75,1.75)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>3</minimumStackCount>
+      </li>
+    </graphics>
+    <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+    <requiredThingDefs>
+      <li>ISA_RawTomatoes</li>
+    </requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
+	
 </Defs>
