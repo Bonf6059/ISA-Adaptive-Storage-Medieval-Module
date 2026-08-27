@@ -69,38 +69,6 @@
 		</allowedThingCategories>
 	</AdaptiveStorage.GraphicsDef>
 
-<!-- ASMedievalStackMead -->
-	
-  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase" MayRequire="ISA.hornetkeeping">
-		<defName>ASMedievalStackMead</defName>
-	  	<targetDef>ASMedievalStackMeadWoody</targetDef>
-		<graphics>
-			<li>
-				<graphicData>
-					<texPath>ASMedieval/Stack/StackEmpty</texPath>
-					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>(4,4)</drawSize>
-				</graphicData>
-			</li>
-			<li>
-				<graphicData>
-					<texPath>ASMedieval/Stack/StackMead/StackMead</texPath>
-					<graphicClass>Graphic_Multi</graphicClass>
-		    	<shaderType>CutoutComplex</shaderType>
-					<drawSize>(4,4)</drawSize>
-				</graphicData>
-				<minimumStackCount>1</minimumStackCount>
-			</li>
-		</graphics>
-		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
-		<requiredThingDefs>
-			<li>ISA_HornetMead</li>
-   			<li>ISA_HornetHoney</li>
-     		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
-     		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
-		</requiredThingDefs>
-	</AdaptiveStorage.GraphicsDef>
-
   <!-- Wood Cheese Stack -->
 
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase" MayRequire="ISA.Medieval">
@@ -131,6 +99,8 @@
     		<li>ISA_MealGoatCheese</li>
     		<li MayRequire="Van.Beasts">ISA_MealMufftonCheese</li>
      		<li MayRequire="Van.Beasts">ISA_MealGoldiloxCheese</li>
+			<li MayRequire="det.sbcuisine">SC_DwarvenCheese</li>
+			<li MayRequire="det.sbcuisine">SC_Raw_FreshCheese</li>
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
@@ -161,6 +131,12 @@
 		<requiredThingDefs>
      		<li>ISA_Wine</li>
       		<li>ISA_Wine_Berry</li>
+			<li MayRequire="ISA.hornetkeeping">ISA_HornetMead</li>
+   			<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
+			<li MayRequire="ISA.hornetkeeping">ISA_BeeHoney</li>
+			<li MayRequire="ISA.hornetkeeping">ISA_BeeMead</li>
+     		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
+     		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
