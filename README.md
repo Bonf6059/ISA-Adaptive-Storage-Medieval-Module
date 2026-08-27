@@ -11,6 +11,7 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 27/08/2026
 - Removed Mead storage and added it to wine storage
 - Added stoneborn cuisine cheese to cheese storage
+- Added textures for food barrel (cabbage, pumpkin, tomato)
 
 15/05/2026
 - Removed cider and apple juice
