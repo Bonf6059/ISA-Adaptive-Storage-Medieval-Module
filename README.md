@@ -8,6 +8,9 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 
 # Old updates
 
+14/10/2026
+- Added 1.7 support
+
 27/08/2026
 - Removed Mead storage and added it to wine storage
 - Added stoneborn cuisine cheese to cheese storage
