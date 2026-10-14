@@ -5,4 +5,10 @@
     	<!--<li IfModNotActive=""</li>-->
     	<!--<li IfModActiveAll=","</li>-->
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<!--<li IfModActive=""></li>-->
+    	<!--<li IfModNotActive=""</li>-->
+    	<!--<li IfModActiveAll=","</li>-->
+	</v1.7>
 </loadFolders>
