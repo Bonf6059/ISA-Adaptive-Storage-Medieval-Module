@@ -59,6 +59,7 @@
 			<li>MedicineHerbal</li>
 			<li>ISA_Mindwort</li>
             <li>ISA_RawHerb</li>
+			<li>ISA_AstragalusFlowers</li>
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
@@ -89,6 +90,7 @@
 						<li>ISA_Poppy</li>
 						<li>ISA_RawAlraun</li>
 						<li>ISA_RawSagewick</li>
+						<li>ISA_CliviaPetals</li>
 						<li MayRequire="det.stonebornfaction">DV_RawAlraun</li>
 						<li MayRequire="det.stonebornfaction">DV_RawCinderwort</li>
 		</requiredThingDefs>
