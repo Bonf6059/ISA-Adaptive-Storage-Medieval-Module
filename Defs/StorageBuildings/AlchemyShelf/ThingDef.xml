@@ -40,6 +40,8 @@
             			<li>ISA_RawHerb</li>
 						<li>ISA_RawAlraun</li>
 						<li>ISA_RawSagewick</li>
+						<li>ISA_AstragalusFlowers</li>
+						<li>ISA_CliviaPetals</li>
 						<li MayRequire="det.stonebornfaction">DV_RawAlraun</li>
 						<li MayRequire="det.stonebornfaction">DV_RawCinderwort</li>
 					</thingDefs>
