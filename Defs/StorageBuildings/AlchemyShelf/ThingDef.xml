@@ -38,6 +38,10 @@
 						<li>ISA_FlyAgaric</li>
 						<li>ISA_Poppy</li>
             			<li>ISA_RawHerb</li>
+						<li>ISA_RawAlraun</li>
+						<li>ISA_RawSagewick</li>
+						<li MayRequire="det.stonebornfaction">DV_RawAlraun</li>
+						<li MayRequire="det.stonebornfaction">DV_RawCinderwort</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
